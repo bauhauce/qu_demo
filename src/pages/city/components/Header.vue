@@ -1,9 +1,9 @@
 <template>
   <div>
     <header>
-      <div class="header-left">
+      <router-link class="header-left" to="/">
         <span class="iconfont iconfont-back">&#xe624;</span>
-      </div>
+      </router-link>
       <h2 class="header-title">城市选择</h2>
     </header>
   </div>
